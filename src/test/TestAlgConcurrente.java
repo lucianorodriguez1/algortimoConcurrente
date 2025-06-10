@@ -10,8 +10,8 @@ public class TestAlgConcurrente {
         int hilosDisponibles = Runtime.getRuntime().availableProcessors();
         System.out.println("Hilos disponibles para el pool: " + hilosDisponibles);
 
-        int V = 800000; // Número de vértices (nodos del grafo)
-        int E = 10000000; // Número de aristas (conexiones)
+        int V = 10000000;  // Número de vértices (nodos)
+        int E = 20000000;  // Número de aristas (conexiones)
 
         Random rand = new Random();
         ArrayList<ArrayList<Integer>> adj = new ArrayList<>();
